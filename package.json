@@ -2,22 +2,26 @@
   "name": "react-native-open-developer-menu",
   "title": "React Native Open Developer Menu",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Open React Native Developer Menu using API or floating button",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-open-developer-menu.git",
-    "baseUrl": "https://github.com/github_account/react-native-open-developer-menu"
+    "url": "git+https://github.com/react-native-open-developer-menu/react-native-open-developer-menu.git",
+    "baseUrl": "https://github.com/react-native-open-developer-menu/react-native-open-developer-menu"
   },
   "keywords": [
-    "react-native"
+    "react",
+    "native",
+    "react-native",
+    "developer",
+    "menu"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "react-native-enable-debug-in-release",
+    "username": "react-native-enable-debug-in-release"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
