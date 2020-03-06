@@ -1,14 +1,13 @@
-# react-native-open-developer-menu
+# Summary
 
-## Getting started
+Makes possible to open React Native **Developer Menu** without shaking device.
 
-`$ npm install react-native-open-developer-menu --save`
+# Getting started
+```
+yarn add react-native-open-developer-menu
+```
 
-### Mostly automatic installation
-
-`$ react-native link react-native-open-developer-menu`
-
-## Usage
+# Usage
 ```javascript
 import OpenDeveloperMenu from 'react-native-open-developer-menu';
 
