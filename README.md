@@ -12,6 +12,6 @@ yarn add react-native-open-developer-menu
 # Usage
 ```javascript
 import {open} from 'react-native-open-developer-menu';
-...
+//...
 open();
 ```
