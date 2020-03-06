@@ -1,5 +1,19 @@
-import { NativeModules } from 'react-native';
+import {Platform, NativeModules} from 'react-native';
 
-const { OpenDeveloperMenu } = NativeModules;
+/**
+ * Cross-platofrm (iOS and Android) method for Developer Menu
+ */
+export const open = () => {
+  if (Platform.OS === 'android') {
+    const {OpenDeveloperMenu} = NativeModules;
+    OpenDeveloperMenu.open();
+    return;
+  }
 
-export default OpenDeveloperMenu;
+  const {DevMenu} = NativeModules;
+  if (DevMenu) {
+    // works in iOS
+    DevMenu.show();
+    return;
+  }
+};
